@@ -1,0 +1,19 @@
+O que aconteceu quando você enviou o código correto?
+
+os três testes passaram, e a pipeline foi um sucesso
+
+O que mudou quando você provocou a falha?
+
+a função test_somar falhou, pois ela esperava q o resultado fosse 5, mas no código, estava 6
+
+Como o GitHub Actions indicou o problema?
+
+a pipeline indicou o ícone de falha, mostrando q o erro estava na função test_somar
+
+O que aconteceu depois da correção?
+
+a nova pipeline voltou a indicar o ícone de sucesso, mostrando q todos os testes funcionaram
+
+Qual benefício da Integração Contínua você percebeu na prática?
+
+ela nos mostra de forma automática se os testes deram certo ou deram errado, bastou eu olhar a pipeline no GitHub Actions, para ver se a pipeline foi um sucesso, ou uma falha
